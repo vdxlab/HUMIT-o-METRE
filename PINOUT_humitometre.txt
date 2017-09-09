@@ -1,0 +1,20 @@
+IO index	ESP8266 pin  	 FUNCIO HUITOMETRE
+  0 [*] 	GPIO   16   --->   pulsador
+  1 		GPIO    5   --->   I2C                         SCL  
+  2 		GPIO    4   --->   I2C                         SDA 
+  3 		GPIO    0   --->            TFT_retroLED
+  4 		GPIO    2   --->   SPI                                  SD_CS
+
+  5 		GPIO   14   --->   SPI      TFT_SCLK                    SD_SCK
+  6 		GPIO   12   --->   SPI      TFT_DC   (A0)               SD_MISO
+  7 		GPIO   13   --->   SPI      TFT_MOSI                    SD_MOSI
+  8 		GPIO   15   --->   SPI      TFT_CS                
+
+  9 		GPIO    3   --->   RX
+ 10 		GPIO    1   --->   TX
+ 11 		GPIO    9   --->   ???
+ 12 		GPIO   10   --->   ???
+
+
+
+A0  ------------------------------------------>  POTENCIOMETRE / SELECTOR ROTATIU                            
